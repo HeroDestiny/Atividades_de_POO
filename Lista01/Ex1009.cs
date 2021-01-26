@@ -8,7 +8,7 @@ class MainClass {
     name = Console.ReadLine();
     salario = double.Parse(Console.ReadLine());
     vendas = double.Parse(Console.ReadLine());
-    salario_bonus = salario + (vendas * 0.15);
+    salario_bonus = salario + vendas * 0.15;
 
     Console.WriteLine($"TOTAL = R$ {salario_bonus:0.00}");
   }
